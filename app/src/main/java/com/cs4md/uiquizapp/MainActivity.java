@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 if (currentIndex < arrayOfQuestion.length-1){
                     //advance and show next question
                     currentIndex ++;
+                    currentQ = arrayOfQuestion[currentIndex];
                     questionTextView.setText(arrayOfQuestion[currentIndex].getqText());
 
                 }
